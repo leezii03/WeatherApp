@@ -20,7 +20,7 @@ document.addEventListener('keydown' , (e) => {
 
 search.addEventListener('click' , () => {
 
-    const APIKey = '5484d3cc17db064d4ea2e10174b881c0';
+    const APIKey = 'API_URL';
     const city = document.querySelector('.search-box input').value;
 
     if(city === ''){
